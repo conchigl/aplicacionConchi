@@ -1,0 +1,11 @@
+---
+applications:
+- name: asrTomcatConchi
+  random-route: false
+  path: target/asrTomcatConchi.war
+  memory: 640M
+  instances: 1
+  host: asrTomcatConchi
+  domain: eu-gb.mybluemix.net
+  services:
+  - Cloudant-3l
